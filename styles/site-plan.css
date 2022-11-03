@@ -39,10 +39,15 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 200px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+}
+h5 {
+  font-family: var(--heading-font);
+  text-align: center;
 }
 h2 {
   text-align: center;
