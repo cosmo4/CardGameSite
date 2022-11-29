@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>52 Card Games</title>
+    <script>
+      let mybutton = document.getElementById("totop");
+    
+      function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
 </head>
 <body class="homebody">
     <a class="logo" href="./index.html"><img src="./images/improvedLogo.png" alt="logo image"></a>
@@ -46,12 +54,5 @@
 
       </footer>
 </body>
-</html>
-<script>
-  let mybutton = document.getElementById("totop");
 
-  function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
+</html>
