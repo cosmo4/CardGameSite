@@ -109,7 +109,7 @@
     grid-column: 3/4;
     grid-row: 10/11;
     margin: 0 auto;
-    padding: 10;
+    padding: 10px;
     font-family: var(--heading-font);
     font-size: 1.3em;
     color: #941c2f;
