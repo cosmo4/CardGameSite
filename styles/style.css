@@ -52,6 +52,7 @@
     padding-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
+    
 }
 .footnav {
     background-color: #03191e;
@@ -105,7 +106,7 @@
 .item2 {
     grid-column: 2/3;
 }
-#totop {
+/*#totop {
     grid-column: 3/4;
     grid-row: 10/11;
     margin: 0 auto;
@@ -115,6 +116,27 @@
     color: #941c2f;
 
 }
+*/
+#totop {
+    display: block; 
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#14c0ff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-family: var(--heading-font);
+  }
+  
+  #totop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 .foot {
     grid-column: 1/6;
     grid-row: 13/14;
