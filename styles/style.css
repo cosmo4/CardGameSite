@@ -52,7 +52,6 @@
     padding-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
-    
 }
 .footnav {
     background-color: #03191e;
@@ -106,17 +105,7 @@
 .item2 {
     grid-column: 2/3;
 }
-/*#totop {
-    grid-column: 3/4;
-    grid-row: 10/11;
-    margin: 0 auto;
-    padding: 10px;
-    font-family: var(--heading-font);
-    font-size: 1.3em;
-    color: #941c2f;
 
-}
-*/
 #totop {
     display: block; 
     position: fixed; /* Fixed/sticky position */
@@ -135,10 +124,95 @@
   }
   
   #totop:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #c4bbaf; /* Add a dark-grey background on hover */
+    color:#941c2f;
   }
 .foot {
     grid-column: 1/6;
     grid-row: 13/14;
     margin: 0 auto;
 }
+
+/* How to CSS */
+.howtobody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.howcontent {
+    grid-column: 1/6;
+    grid-row: 4/8;
+    background-color: #941c2f;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.howcontent h3 {
+    font-family: var(--heading-font);
+    color:#c4bbaf;
+    font-size: 1.5em;
+    text-align: center;
+}
+.display {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+    background-color: #c4bbaf;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+}
+.display h5 {
+    font-family: var(--heading-font);
+    grid-column: 1/3;
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+}
+.display p {
+    grid-column: 1/2;
+    font-family: var(--paragraph-font);
+    color: black;
+}
+.display img {
+    grid-column: 2/3;
+    width: 100%;
+    border-radius: 8px;
+}
+.organized {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+    background-color: #c4bbaf;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.organized h5 {
+    font-family: var(--heading-font);
+    grid-column: 1/3;
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+}
+.organized p {
+    grid-column: 1/2;
+    font-family: var(--paragraph-font);
+    color: black;
+}
+.organized img {
+    grid-column: 2/3;
+    width: 100%;
+    border-radius: 8px;
+}
+
