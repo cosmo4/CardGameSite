@@ -44,7 +44,7 @@
     
 }
 .navbar {
-    grid-column: 2/5;
+    grid-column: 1/6;
     grid-row: 2/3;
     margin: 0 auto;
     background-color: #03191e;
@@ -133,7 +133,10 @@
     margin: 0 auto;
 }
 
-/* How to CSS */
+
+/* How to page CSS */
+
+
 .howtobody {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -150,7 +153,6 @@
     padding-left: 80px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .howcontent h3 {
     font-family: var(--heading-font);
@@ -216,3 +218,77 @@
     border-radius: 8px;
 }
 
+/*Why Page CSS*/
+
+.whybody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.whycontent {
+    grid-column: 1/6;
+    grid-row: 4/6;
+    background-color: var(--accent2-color);
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.whycontent img {
+    grid-column: 2/3;
+    width: 220px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+#question {
+    grid-row: 2/3;
+    margin: 0 auto;
+}
+#sol {
+    grid-row: 4/5;
+    margin: 0 auto;
+}
+.whycome {
+    background-color: #14c0ff;
+    color: #03191e;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-column: 1/2;
+    grid-row: 1/6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.whycome p {
+    font-family: var(--paragraph-font);
+}
+.whycome h5 {
+    font-size: 1.1em;
+    font-family: var(--heading-font);
+    text-align: center;
+}
+.whyhere {
+    background-color: #14c0ff;
+    color: #03191e;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-column: 3/4;
+    grid-row: 1/6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.whyhere p {
+    font-family: var(--paragraph-font);
+}
+.whyhere h5 {
+    font-size: 1.1em;
+    font-family: var(--heading-font);
+    text-align: center;
+}
