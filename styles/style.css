@@ -222,10 +222,10 @@
 
 .whybody {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 200px 200px 200px 1fr;
     row-gap: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .whycontent {
     grid-column: 1/6;
